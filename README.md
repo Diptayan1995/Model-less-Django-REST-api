@@ -1,1 +1,0 @@
-# Model-less-Django-REST-api

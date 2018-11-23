@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+    <br><br><h5>Get your user list here.</h5>
+
+    <br><br>
+
+    <h1></h1>
+    {% for dataset in data %}
+    <ul>
+    <li>{{dataset}}</li>
+     {% endfor %}
+    </ul>
+
+
+    {% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+    <li>{% if message.tags %} {% endif %}{{ message }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+</div>
+
+ {{ block.super }}
+{% endblock %}
