@@ -63,7 +63,7 @@ tornado==3.2.1
 ubuntu-drivers-common==0.0.0
 ufw==0.35
 unattended-upgrades==0.1
-urllib3==1.22
+urllib3==1.26.5
 virtualenv==16.0.0
 Werkzeug==0.14.1
 xkit==0.0.0
