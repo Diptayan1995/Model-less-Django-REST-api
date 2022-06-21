@@ -24,7 +24,7 @@ keyring==10.6.0
 keyrings.alt==3.0
 language-selector==0.1
 MarkupSafe==1.1.0
-numpy==1.15.1
+numpy==1.22.0
 olefile==0.45.1
 pandas==0.23.4
 pexpect==4.2.1
